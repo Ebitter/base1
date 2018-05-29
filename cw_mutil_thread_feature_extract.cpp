@@ -1,5 +1,6 @@
 ﻿#include <stdio.h>
-#define MTFE_C_EXPORTS_C_EXPORTS
+#include<string.h>
+//#define MTFE_C_EXPORTS_C_EXPORTS
 #include "include/cw_mutil_thread_feature_extract.h"
 
 /*

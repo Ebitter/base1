@@ -33,9 +33,9 @@ HEADERS += \
 #HEADERS += \
 #    include/cw_mutil_thread_feature_extract.h
 
-#win32:CONFIG(release, debug|release): LIBS += -L$$PWD/../build-medium1-Desktop_Qt_5_7_0_MSVC2013_32bit-Debug/release/ -lcw_mutil_thread_feature_extract
-#else:win32:CONFIG(debug, debug|release): LIBS += -L$$PWD/../build-medium1-Desktop_Qt_5_7_0_MSVC2013_32bit-Debug/debug/ -lcw_mutil_thread_feature_extract
-#else:unix: LIBS += -L$$PWD/../build-medium1-Desktop_Qt_5_7_0_MSVC2013_32bit-Debug/ -lcw_mutil_thread_feature_extract
+#win32:CONFIG(release, debug|release): LIBS += -L$$PWD/../build-medium1-Desktop_Qt_5_7_0_GCC_64bit-Debug/release/ -lcw_mutil_thread_feature_extract
+#else:win32:CONFIG(debug, debug|release): LIBS += -L$$PWD/../build-medium1-Desktop_Qt_5_7_0_GCC_64bit-Debug/debug/ -lcw_mutil_thread_feature_extract
+#else:unix: LIBS += -L$$PWD/../build-medium1-Desktop_Qt_5_7_0_GCC_64bit-Debug/ -lcw_mutil_thread_feature_extract
 
-#INCLUDEPATH += $$PWD/../build-medium1-Desktop_Qt_5_7_0_MSVC2013_32bit-Debug/debug
-#DEPENDPATH += $$PWD/../build-medium1-Desktop_Qt_5_7_0_MSVC2013_32bit-Debug/debug
+#INCLUDEPATH += $$PWD/../build-medium1-Desktop_Qt_5_7_0_GCC_64bit-Debug
+#DEPENDPATH += $$PWD/../build-medium1-Desktop_Qt_5_7_0_GCC_64bit-Debug
